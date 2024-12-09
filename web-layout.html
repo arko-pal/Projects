@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arko_Web-Layout</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .navbar {
+            background: linear-gradient(
+                    #000000,
+                    #080808d8,
+                    #1d1d1dcc,
+                    #1b1b1bb3);
+            padding: 30px;
+
+        }
+
+        .navlist {
+            display: inline;
+            margin-inline: 50px;
+            color: white;
+            padding: 10px 15px 10px 15px;
+        }
+
+        .navlist:hover {
+            background-color: white;
+            color: black;
+            padding: 10px 15px 10px 15px;
+            border-radius: 5px;
+        }
+
+        .active {
+            background-color: white;
+            color: black;
+            padding: 10px 15px 10px 15px;
+            border-radius: 5px;
+        }
+
+        .banner {
+            background-image: url("https://housing.com/news/wp-content/uploads/2023/09/Top-7-manufacturing-companies-in-Karnataka-f.jpg");
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .image {
+            background-color: #dffff4;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            width: 100%;
+            height: 500px;
+            display: flex;
+        }
+
+        .image>img {
+            margin: 25px;
+            width: 30%;
+            border-radius: 10px;
+        }
+
+        .image>img:hover {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            box-shadow: 10px 10px #bdbdbd
+        }
+        .content{
+            background-color: black;
+            display: flex;
+            padding: 50px;
+            
+        }
+        .content > p{
+            color: white;
+            display: inline;
+            justify-content: end;
+            width: 50%;
+            padding-right: 25px;
+            align-content: end;
+        }
+        .content > img{
+            width: 50%;
+            margin-left: 25px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav class="navbar">
+                <div class="navlist active">Home</div>
+                <div class="navlist">Services</div>
+                <div class="navlist">About</div>
+                <div class="navlist">Project</div>
+                <div class="navlist">Contact</div>
+            </nav>
+        </header>
+    </section>
+    <section>
+        <div class="banner"></div>
+        <div class="image">
+            <img src="https://thumbs.dreamstime.com/b/small-mobile-crane-2907485.jpg" alt="image1">
+            <img src="https://thumbs.dreamstime.com/b/construction-crane-16359076.jpg" alt="image2">
+            <img src="https://thumbs.dreamstime.com/b/mobile-crane-2359064.jpg" alt="image3">
+        </div>
+        <div class="content">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo placeat consectetur quasi, molestiae omnis
+                fugiat pariatur totam dolorum dolore! Vero consequatur quaerat magnam possimus ut quam veritatis,
+                quisquam hic minima consequuntur doloremque, debitis dolorem mollitia totam alias eius provident illum?
+                Nostrum exercitationem quidem iure? Architecto nulla nesciunt ad nobis aliquam?Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Quidem veritatis dolorem iste minima rerum similique atque laborum
+                blanditiis, dolore ratione molestiae doloribus labore, nobis sunt earum iure, dolores rem animi quas
+                sequi error consequuntur? Sint minus repellendus facere nemo nobis vitae itaque commodi et quaerat magni
+                maxime quam deserunt quod quis illo atque accusamus explicabo id suscipit, sed a, error, inventore ut
+                maiores? Necessitatibus obcaecati cum delectus quos incidunt, adipisci molestias laboriosam, cumque amet
+                itaque rem fugit dolores totam id nemo non quae mollitia blanditiis cupiditate assumenda. Ex vitae
+                libero deleniti, dignissimos ratione voluptates consequuntur quae expedita. In, temporibus facilis?</p>
+                <img src="https://www.cranebriefing.com/Images/480xany/20211130-113003-liebherrltm111052300dpi.jpg" alt="img">
+        </div>
+    </section>
+
+</body>
+
+</html>
