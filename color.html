@@ -6,55 +6,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arko Pal_Color</title>
     <style>
-        body {
+        #h{
+            padding-top: 50px;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f9f9f9;
         }
-
-        .gradient-bar {
-            width: 300px;
+        .c1{
+            display: flex;
+            justify-content: center;
+        }
+        .c2{
+            margin-top: 50px;
+            display: flex;
+            box-shadow: 0px 2px 25px 15px #C8B2B2;
             height: 50px;
-            margin: 20px 0;
-            border-radius: 25px;
-            position: relative;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 350px;
         }
 
-        .red-bar {
-            background: linear-gradient(to right, #ff3b3b, #ff9999);
+        /* ----------Color 1---------- */
+        .color11{
+            height: 50px;
+            width: 100px;
+            background: linear-gradient(
+                    #8a382a,
+                    #F13E6E,
+                    #8a382a);
+            box-shadow: 0px 2px 25px 20px #C8B2B2;
+        }
+        .bborder{
+            height: 50px;
+            width: 5px;
+            background-color: #534d4e;
+        }
+        .color12{
+            height: 50px;
+            width: 5px;
+            background: linear-gradient(
+                    #a07d70,
+                    #fdb7c6,
+                    #a07d70);
+        }
+        .color13{
+            height: 50px;
+            width: 200px;
+            background: linear-gradient(
+                    #a07d70,
+                    #fdb7c6,
+                    #a07d70);
+        }
+        .color14{
+            height: 50px;
+            width: 35px;
+            background: linear-gradient(
+                    #8a382a,
+                    #F13E6E,
+                    #8a382a);
         }
 
-        .green-bar {
-            background: linear-gradient(to right, #66ff66, #ccffcc);
+        /* ----------Color 2---------- */
+
+
+        .color21{
+            height: 50px;
+            width: 100px;
+            background: linear-gradient(
+                    #5A8116,
+                    #70F23E,
+                    #5A8116);
+            box-shadow: 0px 2px 25px 20px #C8B2B2;
+        }
+        .color22{
+            height: 50px;
+            width: 5px;
+            background: linear-gradient(
+                    #7b9765,
+                    #c5fcb1,
+                    #7b9765);
+        }
+        .color23{
+            height: 50px;
+            width: 200px;
+            background: linear-gradient(
+                    #7b9765,
+                    #c5fcb1,
+                    #7b9765);
+        }
+        .color24{
+            height: 50px;
+            width: 35px;
+            background: linear-gradient(
+                    #5A8116,
+                    #70F23E,
+                    #5A8116);
         }
 
-        .blue-bar {
-            background: linear-gradient(to right, #3399ff, #99ccff);
-        }
+        /* ----------Color 3---------- */
 
-        .gradient-bar::before {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            height: 40px;
-            width: 10px;
-            background-color: #000;
-            border-radius: 5px;
+        .color31{
+            height: 50px;
+            width: 100px;
+            background: linear-gradient(
+                    #154C6E,
+                    #3D70F3,
+                    #154C6E);
+            box-shadow: 0px 2px 25px 20px #C8B2B2;
         }
+        .color32{
+            height: 50px;
+            width: 5px;
+            background: linear-gradient(
+                    #586d7e,
+                    #aac0fd,
+                    #586d7e);
+        }
+        .color33{
+            height: 50px;
+            width: 200px;
+            background: linear-gradient(
+                    #586d7e,
+                    #aac0fd,
+                    #586d7e);
+        }
+        .color34{
+            height: 50px;
+            width: 35px;
+            background: linear-gradient(
+                    #154C6E,
+                    #3D70F3,
+                    #154C6E);
+        }
+        
     </style>
 </head>
 
 <body>
-    <div class="gradient-bar red-bar"></div>
-    <div class="gradient-bar green-bar"></div>
-    <div class="gradient-bar blue-bar"></div>
+    <h1 id="h">
+        CSS Color Markers
+    </h1>
+    <div class="c1">
+        <div class="c2">
+            <div class="color11"></div>
+            <div class="bborder"></div>
+            <div class="color12"></div>
+            <div class="bborder"></div>
+            <div class="color13"></div>
+            <div class="color14"></div>
+        </div>
+    </div>
+
+    <div class="c1">
+        <div class="c2">
+            <div class="color21"></div>
+            <div class="bborder"></div>
+            <div class="color22"></div>
+            <div class="bborder"></div>
+            <div class="color23"></div>
+            <div class="color24"></div>
+        </div>
+    </div>
+
+    <div class="c1">
+        <div class="c2">
+            <div class="color31"></div>
+            <div class="bborder"></div>
+            <div class="color32"></div>
+            <div class="bborder"></div>
+            <div class="color33"></div>
+            <div class="color34"></div>
+        </div>
+    </div>
+    
 </body>
 
 </html>
